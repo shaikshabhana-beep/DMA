@@ -1,0 +1,14 @@
+============================================
+       HIGH-SPEED DMA CONTROLLER TEST
+============================================
+
+SRC = 0x00001000 | DST = 0x00002000 | DATA = 0xAAAA0001 | READ = 1 | WRITE = 1 | BUSY = 1
+SRC = 0x00001004 | DST = 0x00002004 | DATA = 0xBBBB0002 | READ = 1 | WRITE = 1 | BUSY = 1
+SRC = 0x00001008 | DST = 0x00002008 | DATA = 0xCCCC0003 | READ = 1 | WRITE = 1 | BUSY = 1
+SRC = 0x0000100C | DST = 0x0000200C | DATA = 0xDDDD0004 | READ = 1 | WRITE = 1 | BUSY = 1
+
+DMA DONE = 1 | BUSY = 0
+
+============================================
+        DMA SIMULATION COMPLETED
+============================================
